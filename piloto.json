@@ -1,1 +1,14 @@
-{"nombre":"Fernando","apellido":"Alonso","edad":41,"victorias":32}{"nombre":"Max","apellido":"Verstappen","edad":25,"victorias":38}
+[
+  {
+    "nombre": "Fernando",
+    "apellido": "Alonso",
+    "edad": 41,
+    "victorias": 32
+  },
+  {
+    "nombre": "Max",
+    "apellido": "Verstappen",
+    "edad": 25,
+    "victorias": 39
+  }
+]

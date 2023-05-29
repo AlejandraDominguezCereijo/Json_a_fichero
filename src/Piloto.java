@@ -1,3 +1,6 @@
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
 import java.util.ArrayList;
 
 public class Piloto {
@@ -56,11 +59,7 @@ public class Piloto {
 
     @Override
     public String toString() {
-        return "Piloto{" +
-                "nombre='" + nombre + '\'' +
-                ", apellido='" + apellido + '\'' +
-                ", edad=" + edad +
-                ", victorias=" + victorias +
-                '}';
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        return "{\"piloto\":" + gson.toJson(this) + "}";
     }
 }
